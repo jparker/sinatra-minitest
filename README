@@ -1,0 +1,6 @@
+This application is a basic example of a modular Sinatra application which
+uses Minitest and Capybara for acceptance testing.
+
+* http://sinatrarb.com
+* http://docs.seattlerb.org/minitest
+* http://jnicklas.github.io/capybara
