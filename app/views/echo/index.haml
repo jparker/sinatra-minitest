@@ -1,0 +1,9 @@
+- if @data
+  %p You entered the following text:
+  - @data.each do |datum|
+    %blockquote= datum.inspect
+
+%form.form-inline{method: 'post', action: url('/'), role: 'form'}
+  %label.sr-only{for: 'data'} Data
+  %input.form-control{type: 'text', name: 'data', placeholder: 'data'}
+  %button.btn.btn-primary{type: 'submit'} Send

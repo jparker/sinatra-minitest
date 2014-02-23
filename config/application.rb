@@ -11,3 +11,4 @@ require 'haml'
 require 'sass'
 
 Dir[File.expand_path(File.join(__dir__, '..', 'app', 'controllers', '*.rb'))].each { |f| require f }
+Dir[File.expand_path(File.join(__dir__, '..', 'app', 'models', '*.rb'))].each { |f| require f }
